@@ -52,12 +52,15 @@
 - 이상치 처리
 ### 2. 데이터 특성 간 상관관계 시각화 - Heat map
 ### 3. 모델링
-- RandomForest
-- XGBoost
-- XGBRF
-#### 모델별 성능 비교
-#### Ensemble
-<center><img src="./image/ocean_description_2.png" width = "70%"></center>
+- 사용한 모델
+  - RandomForest
+  - XGBoost
+  - XGBRF
+- 모델별 성능 비교
+  <center><img src="./image/models.png" width = "70%"></center>
+
+- Ensemble
+  <center><img src="./image/Ensemble.png" width = "70%"></center>
 
 ### 4. 최종 모델 선정
 - XGBRF
