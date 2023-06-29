@@ -36,6 +36,10 @@
 3. 해양 데이터: 해양부이관측자료 (해양조사원, 한국수력원자력 제공)
 
 ### 데이터 구성
+<center><img src="./image/ulsan_ship.png" width = "70%"></center>
+<center><img src="./image/ulsan_weather.png" width = "70%"></center>
+
+### 데이터 설명
 
 
 ## 📌 주요 기능
