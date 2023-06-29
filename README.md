@@ -51,6 +51,8 @@
 - 데이터 통합
 - 이상치 처리
 ### 2. 데이터 특성 간 상관관계 시각화 - Heat map
+
+
 ### 3. 모델링
 - 사용한 모델
   - RandomForest
@@ -60,12 +62,12 @@
   <center><img src="./image/models.png" width = "70%"></center>
 
 - Ensemble
-  <center><img src="./image/Ensemble.png" width = "70%"></center>
+  <center><img src="./image/Ensemble.png" width = "90%"></center>
 
 ### 4. 최종 모델 선정
 - XGBRF
 - HyperParameter Tunning 사용
 - Standardscaler 사용
 ### 5. Feature Inportance 확인
-
+<center><img src="./image/Feature Inportance.png" width = "70%"></center>
 
