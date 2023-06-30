@@ -195,7 +195,7 @@
 
  - **2차 데이터 통합**
    - 1차로 통합한 데이터로 모델링 수행 → 과적합
-   - 과적합이 발생한 이유에 대해 생각하다가 1차로 통합된 데이터가 sec단위로 기록되어 row별 특성에 따른 데이터가 너무 조밀하다고 판단
+   - 과적합이 발생한 이유 → 1차로 통합된 데이터가 sec단위로 기록되어 row별 특성에 따른 데이터가 너무 조밀하다고 판단
    - row별 특성에 따른 데이터를 러프하게 변경을 결정
      - hour 단위로 ⇒ `df_train_v3_mean.csv`, `df_test_v3_mean.csv`, `df_train_v3.csv`, `df_test_v3.csv`
      - min 단위로 ⇒ `df_train_v3_mean_1m.csv`, `df_test_v3_mean_1m.csv`, `df_train_v3_1m.csv`, `df_test_v3_1m.csv`
