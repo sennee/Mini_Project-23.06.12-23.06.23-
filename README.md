@@ -47,7 +47,16 @@
 
 ## 📌 프로젝트 진행 과정
 ### 1. 데이터 전처리
+- 테이블 간 시간컬럼 표기 통일 
+  - 각 테이블마다 시간컬럼 표기가 달라 통일하였음. string('yyyymmddhhmm)형태로 시간 데이터를 하나의 컬럼으로 가지고 있는 테이블이 있었고, 시간 데이터를 년·월·일·시·분으로 각각 컬럼을 가지고 있는 테이블이 있어 year, month, day, hour, min 컬럼으로 시간 데이터의 표기를 통일하였음. hour단위로 기록된 데이터를 가진 테이블, min단위로 기록된 데이터를 가진 테이블, 그리고 sec단위로 기록된 데이터를 가진 테이블이 존재함.
+- 테이블 간 위경도 표기 통일
+  - 위경도 컬럼 name 통일
 - 결측치 처리
+  - 선박데이터_cog컬럼: 평균값으로 대체
+  - 선박데이터_hdg컬럼: 평균값으로 대체
+  - 해양데이터_ws컬럼: 
+  - 해양데이터_wd컬럼: 
+  - 해양데이터_wh컬럼: 
 - 데이터 통합
 - 이상치 처리
   
@@ -55,14 +64,14 @@
 <center><img src="./image/heatmap.png" width = "50%"></center>
 
 ### 3. 모델링
-- 사용한 모델
+- **사용한 모델**
   - RandomForest
   - XGBoost
   - XGBRF
-- 모델별 성능 비교
+- **모델별 성능 비교**
   <center><img src="./image/models.png" width = "70%"></center>
 
-- Ensemble
+- **앙상블**
   <center><img src="./image/Ensemble.png" width = "90%"></center>
 
 ### 4. 최종 모델 선정
