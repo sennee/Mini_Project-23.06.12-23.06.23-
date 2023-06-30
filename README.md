@@ -75,26 +75,93 @@
 
 -  **방향(.wd)컬럼 표기법 변경**
    - `float`형으로 저장되어 있는 방향(.wd)컬럼을 16방위로 변경
-     
-     | float           | 16  |
-     |:---------------:|:---:|
-     | 0 ~ 11.25       | N   |
-     | 11.26 ~ 33.75   | NNE |
-     | 33.76 ~ 56.25   | NE  |
-     | 56.26 ~ 78.75   | ENE |
-     | 78.76 ~ 101.25  | E   |
-     | 101.26 ~ 123.75 | ESE |
-     | 123.76 ~ 146.25 | SE  |
-     | 146.26 ~ 168.75 | SSE |
-     | 168.76 ~ 191.25 | S   |
-     | 191.26 ~ 213.75 | SSW |
-     | 213.76 ~ 236.25 | SW  |
-     | 236.26 ~ 258.75 | WSW |
-     | 258.76 ~ 281.25 | W   |
-     | 281.26 ~ 303.75 | WNW |
-     | 303.76 ~ 326.25 | NW  |
-     | 326.26 ~ 348.75 | NNW |
-     | 348.76 ~ 360    | N   |
+   - <table width=100%>
+      <tr>
+        <td align = 'center' width=50%>
+     <img src="./image/direction.png" width = "100%">
+      </td>
+      <td align = 'center' width=50%>
+         <table class="tg">
+         <thead>
+           <tr>
+             <th class="tg-c3ow">float</th>
+             <th class="tg-c3ow">16</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td class="tg-c3ow">0 ~ 11.25</td>
+             <td class="tg-c3ow">N</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">11.26 ~ 33.75</td>
+             <td class="tg-c3ow">NNE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">33.76 ~ 56.25</td>
+             <td class="tg-c3ow">NE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">56.26 ~ 78.75</td>
+             <td class="tg-c3ow">ENE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">78.76 ~ 101.25</td>
+             <td class="tg-c3ow">E</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">101.26 ~ 123.75</td>
+             <td class="tg-c3ow">ESE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">123.76 ~ 146.25</td>
+             <td class="tg-c3ow">SE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">146.26 ~ 168.75</td>
+             <td class="tg-c3ow">SSE</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">168.76 ~ 191.25</td>
+             <td class="tg-c3ow">S</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">191.26 ~ 213.75</td>
+             <td class="tg-c3ow">SSW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">213.76 ~ 236.25</td>
+             <td class="tg-c3ow">SW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">236.26 ~ 258.75</td>
+             <td class="tg-c3ow">WSW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">258.76 ~ 281.25</td>
+             <td class="tg-c3ow">W</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">281.26 ~ 303.75</td>
+             <td class="tg-c3ow">WNW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">303.76 ~ 326.25</td>
+             <td class="tg-c3ow">NW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">326.26 ~ 348.75</td>
+             <td class="tg-c3ow">NNW</td>
+           </tr>
+           <tr>
+             <td class="tg-c3ow">348.76 ~ 360</td>
+             <td class="tg-c3ow">N</td>
+           </tr>
+         </tbody>
+         </table>
+      </td>
+   </tr>
+</table>
 
     
 - **데이터 통합**
