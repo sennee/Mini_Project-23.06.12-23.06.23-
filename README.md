@@ -1,17 +1,18 @@
 # Mini_Project (23.06.12 ~ 23.06.23)
-2023 날씨 빅데이터 콘테스트 - 해양안전
-
-
+2023 날씨 빅데이터 콘테스트 - 해양안전 <br>
 <기상에 따른 선박 닻끌림 예측>
+<br>
 
 
 ## 🖥️ 프로젝트 주제
 날씨마루에서 제공하는 선박데이터와 기상·해양 데이터를 이용하여 기상 상태에 따른 닻끌림 발생 여부 분석
 <br>
+<br>
 
 
 ## 🕰️ 프로젝트 진행 기간
 * 23.06.12일 - 23.06.23일
+<br>
 
 
 ## 🧑‍🤝‍🧑 멤버구성
@@ -20,11 +21,13 @@
  - 팀원2 : 이창희 - 기상청 기상 데이터 전처리
  - 팀원3 : 이민재 - 선박 데이터 전처리, 앙상블 모델 설계, 하이퍼파라미터
  - 팀원4 : 심세은 - 한국수력원자력 해양 데이터 전처리, 데이터 통합, 랜덤포레스트 모델 설계 
+<br>
 
 
 ## ⚙️ 분석 환경
 - **`Python`**
-- **`Jupyter notebook`***
+- **`Jupyter notebook`**
+<br>
 
 
 ## 📝분석 데이터
@@ -34,16 +37,20 @@
 1. 선박 데이터: 선박상태 정보(해양경찰청 제공)
 2. 기상 데이터: 기상관측자료 (기상청 제공)
 3. 해양 데이터: 해양부이관측자료 (해양조사원, 한국수력원자력 제공)
+<br>
 
 ### 데이터 구성
 <center><img src="./image/ulsan_ship.png" width = "70%"></center>
 <center><img src="./image/ulsan_weather.png" width = "70%"></center>
+<br>
 
 ### 데이터 설명
 <center><img src="./image/ship_description.png" width = "70%"></center>
 <center><img src="./image/weather_description.png" width = "70%"></center>
 <center><img src="./image/ocean_description_1.png" width = "70%"></center>
 <center><img src="./image/ocean_description_2.png" width = "70%"></center>
+<br>
+
 
 ## 📌 프로젝트 진행 과정
 ### 1. 데이터 전처리
@@ -134,16 +141,20 @@
 
  
 - **모델별 성능 비교**
-  <center><img src="./image/models.png" width = "70%"></center>
+  <center><img src="./image/models.png" width = "75%"></center>
 
 - **앙상블**
   <center><img src="./image/Ensemble.png" width = "90%"></center>
+<br>
 
 ### 5. 최종 모델 선정
 - XGBRF
 - HyperParameter Tunning 사용
+  |parameter|parameter description|value|
+  |---------|
 - Standardscaler 사용
-  
+<br>
+
 ### 6. Feature Inportance 확인
 <center><img src="./image/Feature Inportance.png" width = "70%"></center>
 
