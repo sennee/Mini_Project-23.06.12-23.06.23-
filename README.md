@@ -197,11 +197,12 @@
    - 1차로 통합한 데이터로 모델링 수행 → 과적합
    - 과적합이 발생한 이유에 대해 생각하다가 1차로 통합된 데이터가 sec단위로 기록되어 row별 특성에 따른 데이터가 너무 조밀하다고 판단
    - row별 특성에 따른 데이터를 러프하게 변경을 결정
-     - hour 단위로 ⇒ `df_train_v3_mean.csv`, `df_test_v3_mean.csv`
-     - min 단위로 ⇒ 
+     - hour 단위로 ⇒ `df_train_v3_mean.csv`, `df_test_v3_mean.csv`, `df_train_v3.csv`, `df_test_v3.csv`
+     - min 단위로 ⇒ `df_train_v3_mean_1m.csv`, `df_test_v3_mean_1m.csv`, `df_train_v3_1m.csv`, `df_test_v3_1m.csv`
      
 - **이상치 처리**
   - 각각의 컬럼에 대해 boxplot을 그려 이상치 확인 후, 이상치 데이터를 가진 row 삭제
+    ⇒ `df_train_v3_mean_1m_이상치제거.csv`, `df_train_v3_1m_이상치제거.csv`<br>
     <center><img src="./image/outlier.png" width = "70%"></center>
 
 
