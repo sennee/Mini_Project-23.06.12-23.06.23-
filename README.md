@@ -91,72 +91,72 @@
          </thead>
          <tbody>
            <tr>
-             <td class="tg-c3ow">0 ~ 11.25</td>
-             <td class="tg-c3ow">N</td>
+             <td class="tg-c3ow" align = "center">0 ~ 11.25</td>
+             <td class="tg-c3ow" align = "center">N</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">11.26 ~ 33.75</td>
-             <td class="tg-c3ow">NNE</td>
+             <td class="tg-c3ow" align = "center">11.26 ~ 33.75</td>
+             <td class="tg-c3ow" align = "center">NNE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">33.76 ~ 56.25</td>
-             <td class="tg-c3ow">NE</td>
+             <td class="tg-c3ow" align = "center">33.76 ~ 56.25</td>
+             <td class="tg-c3ow" align = "center">NE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">56.26 ~ 78.75</td>
-             <td class="tg-c3ow">ENE</td>
+             <td class="tg-c3ow" align = "center">56.26 ~ 78.75</td>
+             <td class="tg-c3ow" align = "center">ENE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">78.76 ~ 101.25</td>
-             <td class="tg-c3ow">E</td>
+             <td class="tg-c3ow" align = "center">78.76 ~ 101.25</td>
+             <td class="tg-c3ow" align = "center">E</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">101.26 ~ 123.75</td>
-             <td class="tg-c3ow">ESE</td>
+             <td class="tg-c3ow" align = "center">101.26 ~ 123.75</td>
+             <td class="tg-c3ow" align = "center">ESE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">123.76 ~ 146.25</td>
-             <td class="tg-c3ow">SE</td>
+             <td class="tg-c3ow" align = "center">123.76 ~ 146.25</td>
+             <td class="tg-c3ow" align = "center">SE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">146.26 ~ 168.75</td>
-             <td class="tg-c3ow">SSE</td>
+             <td class="tg-c3ow" align = "center">146.26 ~ 168.75</td>
+             <td class="tg-c3ow" align = "center">SSE</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">168.76 ~ 191.25</td>
-             <td class="tg-c3ow">S</td>
+             <td class="tg-c3ow" align = "center">168.76 ~ 191.25</td>
+             <td class="tg-c3ow" align = "center">S</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">191.26 ~ 213.75</td>
-             <td class="tg-c3ow">SSW</td>
+             <td class="tg-c3ow" align = "center">191.26 ~ 213.75</td>
+             <td class="tg-c3ow" align = "center">SSW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">213.76 ~ 236.25</td>
-             <td class="tg-c3ow">SW</td>
+             <td class="tg-c3ow" align = "center">213.76 ~ 236.25</td>
+             <td class="tg-c3ow" align = "center">SW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">236.26 ~ 258.75</td>
-             <td class="tg-c3ow">WSW</td>
+             <td class="tg-c3ow" align = "center">236.26 ~ 258.75</td>
+             <td class="tg-c3ow" align = "center">WSW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">258.76 ~ 281.25</td>
-             <td class="tg-c3ow">W</td>
+             <td class="tg-c3ow" align = "center">258.76 ~ 281.25</td>
+             <td class="tg-c3ow" align = "center">W</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">281.26 ~ 303.75</td>
-             <td class="tg-c3ow">WNW</td>
+             <td class="tg-c3ow" align = "center">281.26 ~ 303.75</td>
+             <td class="tg-c3ow" align = "center">WNW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">303.76 ~ 326.25</td>
-             <td class="tg-c3ow">NW</td>
+             <td class="tg-c3ow" align = "center">303.76 ~ 326.25</td>
+             <td class="tg-c3ow" align = "center">NW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">326.26 ~ 348.75</td>
-             <td class="tg-c3ow">NNW</td>
+             <td class="tg-c3ow" align = "center">326.26 ~ 348.75</td>
+             <td class="tg-c3ow" align = "center">NNW</td>
            </tr>
            <tr>
-             <td class="tg-c3ow">348.76 ~ 360</td>
-             <td class="tg-c3ow">N</td>
+             <td class="tg-c3ow" align = "center">348.76 ~ 360</td>
+             <td class="tg-c3ow" align = "center">N</td>
            </tr>
          </tbody>
          </table>
