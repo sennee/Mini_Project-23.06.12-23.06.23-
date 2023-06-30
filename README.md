@@ -86,84 +86,106 @@
          <thead>
            <tr>
              <th class="tg-c3ow">float</th>
-             <th class="tg-c3ow">16</th>
+             <th class="tg-c3ow">16방위</th>
+             <th class="tg-c3ow">인코딩</th>
            </tr>
          </thead>
          <tbody>
            <tr>
              <td class="tg-c3ow" align = "center">0 ~ 11.25</td>
              <td class="tg-c3ow" align = "center">N</td>
+             <td class="tg-c3ow" align = "center">0</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">11.26 ~ 33.75</td>
              <td class="tg-c3ow" align = "center">NNE</td>
+             <td class="tg-c3ow" align = "center">1</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">33.76 ~ 56.25</td>
              <td class="tg-c3ow" align = "center">NE</td>
+             <td class="tg-c3ow" align = "center">2</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">56.26 ~ 78.75</td>
              <td class="tg-c3ow" align = "center">ENE</td>
+             <td class="tg-c3ow" align = "center">3</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">78.76 ~ 101.25</td>
              <td class="tg-c3ow" align = "center">E</td>
+             <td class="tg-c3ow" align = "center">4</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">101.26 ~ 123.75</td>
              <td class="tg-c3ow" align = "center">ESE</td>
+             <td class="tg-c3ow" align = "center">5</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">123.76 ~ 146.25</td>
              <td class="tg-c3ow" align = "center">SE</td>
+             <td class="tg-c3ow" align = "center">6</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">146.26 ~ 168.75</td>
              <td class="tg-c3ow" align = "center">SSE</td>
+             <td class="tg-c3ow" align = "center">7</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">168.76 ~ 191.25</td>
              <td class="tg-c3ow" align = "center">S</td>
+             <td class="tg-c3ow" align = "center">8</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">191.26 ~ 213.75</td>
              <td class="tg-c3ow" align = "center">SSW</td>
+             <td class="tg-c3ow" align = "center">9</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">213.76 ~ 236.25</td>
              <td class="tg-c3ow" align = "center">SW</td>
+             <td class="tg-c3ow" align = "center">10</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">236.26 ~ 258.75</td>
              <td class="tg-c3ow" align = "center">WSW</td>
+             <td class="tg-c3ow" align = "center">11</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">258.76 ~ 281.25</td>
              <td class="tg-c3ow" align = "center">W</td>
+             <td class="tg-c3ow" align = "center">12</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">281.26 ~ 303.75</td>
              <td class="tg-c3ow" align = "center">WNW</td>
+             <td class="tg-c3ow" align = "center">13</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">303.76 ~ 326.25</td>
              <td class="tg-c3ow" align = "center">NW</td>
+             <td class="tg-c3ow" align = "center">14</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">326.26 ~ 348.75</td>
              <td class="tg-c3ow" align = "center">NNW</td>
+             <td class="tg-c3ow" align = "center">15</td>
            </tr>
            <tr>
              <td class="tg-c3ow" align = "center">348.76 ~ 360</td>
              <td class="tg-c3ow" align = "center">N</td>
+             <td class="tg-c3ow" align = "center">0</td>
            </tr>
+           <tr>
+              <td class="tg-c3ow" align = "center">결측값</td>
+              <td class="tg-c3ow" align = "center">X</td>
+              <td class="tg-c3ow" align = "center">16</td>
+            </tr>
          </tbody>
          </table>
-      </td>
-   </tr>
-</table>
-
+         </td>
+      </tr>
+     </table>
 
 - **데이터 통합**
   - 선박데이터의 시간 컬럼을 기준으로 나머지 기상데이터, 해양데이터 통합하여 하나의 테이블로 만듦. ⇒ `df_train.csv`, `df_test.csv`
