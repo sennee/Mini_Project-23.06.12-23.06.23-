@@ -291,4 +291,4 @@
 ### 6. Feature Inportance 확인
 <center><img src="./image/Feature Inportance.png" width = "70%"></center>
 
-## 🔚회고
+## 🔚 회고
