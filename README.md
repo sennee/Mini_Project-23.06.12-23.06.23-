@@ -23,8 +23,8 @@
 
 
 ## ⚙️ 분석 환경
-- `Python`
-- 'Jupyter notebook'
+- **`Python`**
+- **`Jupyter notebook`***
 
 
 ## 📝분석 데이터
@@ -76,7 +76,13 @@
   - 각각의 컬럼에 대해 boxplot을 그려 이상치 확인 후, 이상치 데이터를 가진 row 삭제
     <center><img src="./image/outlier.png" width = "70%"></center>
 
+
 ### 2. 데이터 분포 시각화 - geoplot
+- 정박된 선박의 위경도를 활용하여 선박의 위치 지도에 표시
+
+  
+  <img src="./image/geoplot.png" width = "50%">
+
 
 ### 3. 데이터 특성 간 상관관계 시각화 - Heat map
 <center><img src="./image/heatmap.png" width = "50%"></center>
