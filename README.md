@@ -75,7 +75,8 @@
 
 -  **방향(.wd)컬럼 표기법 변경**
    - `float`형으로 저장되어 있는 방향(.wd)컬럼을 16방위로 변경
-   - <table width=100%>
+     
+     <table width=100% frame=void>
       <tr>
         <td align = 'center' width=50%>
      <img src="./image/direction.png" width = "100%">
@@ -163,7 +164,7 @@
    </tr>
 </table>
 
-    
+
 - **데이터 통합**
   - 선박데이터의 시간 컬럼을 기준으로 나머지 기상데이터, 해양데이터 통합하여 하나의 테이블로 만듦. ⇒ `df_train.csv`, `df_test.csv`
   - 선박데이터의 시간에 대한 기상·해양 데이터가 없는 경우에 대해 2가지 방법으로 처리
