@@ -74,10 +74,10 @@
   - 해양데이터_wh컬럼: 평균값으로 대체
     
 - **데이터 통합**
-  - 선박데이터의 시간 컬럼을 기준으로 나머지 기상데이터, 해양데이터 통합하여 하나의 테이블로 만듦. → `df_train.csv`, `df_test.csv`
+  - 선박데이터의 시간 컬럼을 기준으로 나머지 기상데이터, 해양데이터 통합하여 하나의 테이블로 만듦. ⇒ `df_train.csv`, `df_test.csv`
   - 선박데이터의 시간에 대한 기상·해양 데이터가 없는 경우에 대해 2가지 방법으로 처리
-    - 기상·해양 데이터를 평균 및 최빈값으로 대체 → `df_train_v2_mean.csv`, `df_test_v2_mean.csv`
-    - 해당 row 삭제 → `df_train_v2.csv`, `df_test_v2.csv`
+    - 기상·해양 데이터를 평균 및 최빈값으로 대체 ⇒ `df_train_v2_mean.csv`, `df_test_v2_mean.csv`
+    - 해당 row 삭제 ⇒ `df_train_v2.csv`, `df_test_v2.csv`
      
 - **이상치 처리**
   - 각각의 컬럼에 대해 boxplot을 그려 이상치 확인 후, 이상치 데이터를 가진 row 삭제
@@ -151,7 +151,18 @@
 - XGBRF
 - HyperParameter Tunning 사용
   |parameter|parameter description|value|
-  |---------|
+  |:---------:|:---------------------:|:-----:|
+  |`n_estimatiors`|트리 개수 지정|`263`|
+  |`max_depth`|각 트리의 최대 깊이 지정|`9`|
+  |`learning_rate`|각 트리의 가중치 업데이트에 대한 학습 속도 지정|`0.038`|
+  |`subsample`|각 트리를 훈련할 때 사용할 샘플의 비율 지정|`0.5305`|
+  |`colsample_bynode`|각 분할에서 사용할 피처의 비율 지정|`0.6650`|
+  |`reg_alpha`|L1 정규화 항에 대한 가중치 지정|`0.081`|
+  |`reg_lambda`|L2 정규화 항에 대한 가중치 지정|`0.8736`|
+  |`min_child_weight`|리프 노드를 분할하기 위한 최소 가중치 합 지정|`9`|
+  |`gamma`|리프 노드의 손실 감소에 필요한 최소 손실 감소 값 지정|`0.3216`|
+  |`scale_pos_weight`|양성 클래스의 가중치 지정|`0.9209`|
+  
 - Standardscaler 사용
 <br>
 
