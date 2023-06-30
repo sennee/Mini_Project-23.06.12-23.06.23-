@@ -201,7 +201,7 @@
      - min 단위로 ⇒ `df_train_v3_mean_1m.csv`, `df_test_v3_mean_1m.csv`, `df_train_v3_1m.csv`, `df_test_v3_1m.csv`
      
 - **이상치 처리**
-  - 각각의 컬럼에 대해 boxplot을 그려 이상치 확인 후, 이상치 데이터를 가진 row 삭제
+  - 각각의 컬럼에 대해 boxplot을 그려 이상치 확인 후, 이상치 데이터를 가진 row 삭제<br>
     ⇒ `df_train_v3_mean_1m_이상치제거.csv`, `df_train_v3_1m_이상치제거.csv`<br>
     <center><img src="./image/outlier.png" width = "70%"></center>
 
@@ -291,3 +291,4 @@
 ### 6. Feature Inportance 확인
 <center><img src="./image/Feature Inportance.png" width = "70%"></center>
 
+## 🔚회고
