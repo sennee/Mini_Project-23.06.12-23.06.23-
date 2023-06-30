@@ -79,9 +79,11 @@
 
 ### 2. 데이터 분포 시각화 - geoplot
 - 정박된 선박의 위경도를 활용하여 선박의 위치 지도에 표시
-
+  <p>
+  <img src="./image/geoplot.png" align="center" width="49%">
+  <img src="./image/geoplot_area.png" align="center" width="33%">
+  </p>
   
-  <img src="./image/geoplot.png" width = "50%">
 
 
 ### 3. 데이터 특성 간 상관관계 시각화 - Heat map
@@ -89,9 +91,48 @@
 
 ### 4. 모델링
 - **사용한 모델**
-  - RandomForest
-  - XGBoost
-  - XGBRF
+  <details>
+  <summary><b>RandomForest</b></summary>
+  <div markdown="1">       
+
+  - 데이터셋의 여러 하위 샘플에 대해 여러 개의 결정 트리 분류기를 학습시키고 평균화하여 예측 정확도를 향상시키고 과적합을 제어.
+  - 장점 <br>
+    - 예측의 변동성이 줄어들며, 과적합을 방지 <br>
+    - 결측치에 대해 강함 <br>
+    - 결측치의 비율이 높아져도 높은 정확도를 나타냄 <br>
+    - 변수의 중요성을 파악할 수 있음
+  - 단점 <br>
+    - 데이터의 수가 많아지면 의사 결정나무에 비해 속도가 크게 떨어짐 <br>
+    - 결과에 대한 해석이 어려운 단점이 있음 <br>
+
+  </div>
+  </details>
+
+  <details>
+  <summary><b>XGBoost</b></summary>
+  <div markdown="1">       
+
+  - 결정트리(Decision Tree) 알고리즘 기반 부스팅 앙상블 기법의 한 종류 <br>
+  - 이전 모델의 오류를 순차적으로 보완해나가는 방식으로 모델을 형성 <br>
+  - 이전 모델에서의 실제값과 예측값의 오차(loss)를 훈련데이터에 투입하고 gradient를 이용하여 오류를 보완하는 방식을 사용함 <br>
+
+  </div>
+  </details>
+
+  <details>
+  <summary><b>XGBRF</b></summary>
+  <div markdown="1">       
+
+  - XGBoost(Extreme Gradient Boosting)의 랜덤 포레스트 버전
+  - 약한 학습기인 결정 트리들을 조합하여 강한 학습기를 구성하는 분류 알고리즘
+  - XGBRF는 XGBoost의 특징과 장점을 가지고 있으며, 랜덤 포레스트의 장점인 안정성과 과적합 방지 효과를 제공
+  - 분류 작업에서 최적의 예측 모델을 생성하기 위해 XGBRF는 약한 학습기인 결정 트리를 학습하고, 이들을 조합하여 강한 학습기를 구성
+  - XGBRF는 부스팅(Boosting) 알고리즘으로, 이전 약한 학습기의 오차를 보완하도록 다음 약한 학습기를 학습
+
+  </div>
+  </details>
+
+ 
 - **모델별 성능 비교**
   <center><img src="./image/models.png" width = "70%"></center>
 
